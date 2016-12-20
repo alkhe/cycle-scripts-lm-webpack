@@ -1,6 +1,6 @@
 {
   "name": "cycle-scripts-lm-webpack",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Lambdant + ES6 + Webpack",
   "scripts": {
     "test": "echo \"TODO\""
