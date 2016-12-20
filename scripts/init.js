@@ -84,7 +84,7 @@ function patchGitignore (appPath) {
 }
 
 function patchIndexJs (appPath, tags) {
-  var indexJsPath = path.join(appPath, 'src', 'index.js')
+  var indexJsPath = path.join(appPath, 'src', 'index.lm')
   var content = fs.readFileSync(indexJsPath, {encoding: 'utf-8'})
   fs.writeFileSync(
     indexJsPath,
@@ -93,7 +93,7 @@ function patchIndexJs (appPath, tags) {
 }
 
 function patchAppJs (appPath, tags) {
-  var indexJsPath = path.join(appPath, 'src', 'app.js')
+  var indexJsPath = path.join(appPath, 'src', 'app.lm')
   var content = fs.readFileSync(indexJsPath, {encoding: 'utf-8'})
   fs.writeFileSync(
     indexJsPath,
