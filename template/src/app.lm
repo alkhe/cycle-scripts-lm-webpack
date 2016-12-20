@@ -6,7 +6,7 @@ exports.App = [sources:
 		div 'My Awesome Cycle.js app'
 	);
 	@sinks = {
-		DOM: vtree$
+		DOM: vt$
 	};
 	sinks
 ];
